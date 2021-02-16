@@ -1,0 +1,28 @@
+.ProjectsWindow{
+
+height: 400px;
+width: 600px;
+background-color: black;
+border-radius: 5px;
+box-shadow: 0px 0px 48px whitesmoke;
+margin: auto;
+margin-left: 75px;
+overflow: scroll;
+}
+
+.links{
+    margin-left: 20px;
+    color: white;
+    
+}
+.linkRow{}
+.description{
+    height: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px whitesmoke;
+
+}
+.linkdesc{
+    margin-top: 10px;
+}

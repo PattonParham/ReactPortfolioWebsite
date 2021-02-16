@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {Col, Row, Container} from "../components/Grid/Grid";
 import "./Portfolio.css";
 import PortfolioTW from "./Portfolio.tw";
+import ProjectsWindow from "../components/ProjectsWindow/ProjectsWindow";
 
 
 const Portfolio = () => {
@@ -11,7 +12,12 @@ const Portfolio = () => {
         <div>
             
             <div className="portfoliocardtop nonmobilecard">
-                <Row className="topRow">
+                <Row>
+                    <Col size = "sm">
+                        <ProjectsWindow></ProjectsWindow>
+                    </Col>
+                </Row>
+                {/* <Row className="topRow">
                     <Col size="sm">
                     <a href = "https://aqueous-beyond-24181.herokuapp.com/" className="employeeDirectoryLink">GenSplice</a>
                 <div className="employeeDirectory gif"></div>
@@ -84,7 +90,7 @@ const Portfolio = () => {
                 </Row>
                 
                 </div>
-                
+                 */}
 
 
             </div>
