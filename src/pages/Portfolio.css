@@ -1,0 +1,414 @@
+.portfoliocardtop{
+    width: 500px;
+    height: 500px;
+  
+    margin-left:29.5%;
+    margin-top: 200px;
+    margin-bottom: 0px;
+   background-color:  rgba(255, 0, 0, 0);
+}
+
+.placeholder{
+    background-color:  rgba(255, 0, 0, 0);
+    border: none;
+    color: whitesmoke;
+}
+.placeholderMiddle{
+    height: 20px;
+}
+.portfoliocardbottom{
+width: 500px;
+height: 500px;
+background-color:  rgba(255, 0, 0, 0);
+margin-left:29.5%;
+}
+.bottomRowLinks{
+    margin-left: 600px;
+
+}
+.middlegif{
+    height: 300px;
+    width: 80%;
+    zoom: 0.4;
+    -moz-transform: scale(0.4);
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+.middle{}
+.bottomgif{
+    height: 270px;
+    width: 160%;
+    zoom: 0.5;
+    -moz-transform: scale(0.4);
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+}
+
+.middleRowLink{
+    
+}
+
+.employeeDirectory{
+background-image: url("portfoliogifs/GenSpliceGif.gif");
+height: 250px;
+width: 38%;
+zoom: 0.4;
+-moz-transform: scale(0.4);
+box-shadow: 0px 0px 48px whitesmoke;
+border-radius: 25px;
+margin-left: 630px;
+margin-top: 55px;
+margin-bottom: 50px;
+transform: scaleY(1.2);
+}
+.employeeDirectoryLink{
+    margin-left: 315px;
+    color: whitesmoke;
+  
+}
+.employeeTracker{
+background-image: url("portfoliogifs/employeeTracker.gif");
+margin-top:30px;
+margin-left: 300px;
+}
+.employeeTrackerLink{
+    margin-left: 150px;
+    color: whitesmoke;
+    
+   
+}
+
+
+.InnerJoin{
+    background-image: url("portfoliogifs/employeeDirectory.gif");
+    margin-top:30px;
+    margin-left: 300px;
+}
+.InnerJoinLink{
+ margin-left: 144px;
+ color: whitesmoke;
+ display: inline;
+}
+
+  
+
+
+.PassGen{
+    background-image: url("portfoliogifs/PassGen.gif");
+    margin-left: 250px;
+    transform: scaleX(.8);
+    margin-top: 30px;
+    
+}
+.PassGenLink{
+margin-left: 80px;
+   position: absolute;
+   color: whitesmoke
+}
+
+.TakeAHike{
+    background-image: url("portfoliogifs/TakeAHike.gif");
+    height: 270px;
+    margin-right: 100px;
+    transform: scaleX(.8);
+    object-fit: contain;
+    margin-top: 30px;
+    
+}
+.TakeAHikeLink{
+   margin-left: 60px;
+   color: whitesmoke
+}
+
+.Weather{
+    margin-left: 125px;
+    background-image: url("portfoliogifs/Weather.gif");
+    transform: scaleX(.8);
+    object-fit: contain;
+    margin-top: 30px;
+}
+.WeatherLink{
+    margin-left:115px;
+    color: whitesmoke
+}
+
+.buttonRow{
+    margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    background-color:  rgba(255, 0, 0, 0);
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+    
+   
+}
+
+.resume{
+margin-left: 160px;
+}
+
+.linkedin{
+margin-left: 425px;
+}
+.github{
+margin-left: 160px;
+}
+.buttontext{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1200px){
+.portfoliocardtop{
+    margin-left:18.5%; 
+
+}
+.linkedin{
+    margin-left: 283px;
+}
+.github{
+    margin-left: 110px;
+}
+.resume{
+    margin-left: 110px;
+}
+}
+@media only screen and (min-width: 1025px){
+    .mobilecard{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+.nonmobilecard{
+    display: none;
+}
+.portfoliocardtop{
+    margin-left:-3%;
+    margin-top: 50px;
+}
+
+.resume{
+margin-top: -50px;
+}
+.github{
+margin-top: 20px;
+}
+.linkedin{
+    margin-top: 20px;
+}
+
+.employeeDirectory{
+
+margin-left: 300px;
+width: 60%;
+zoom: 0.3;
+
+}
+.employeeDirectoryLink{
+    margin-left: 90px;
+}
+.employeeTracker{
+width: 60%;
+zoom: 0.3;
+margin-left: 120px;
+}
+.employeeTrackerLink{
+    margin-left: 120px;
+}
+.InnerJoin{
+width: 60%;
+zoom: 0.3;
+}
+.InnerJoinLink{
+    margin-left: 120px;
+    
+
+}
+.TakeAHike{
+width: 60%;
+zoom: 0.3;
+margin-left: 300px;
+transform: none;
+height: 252px;
+transform: scaleY(1.2);
+margin-top: 60px;
+}
+.TakeAHikeLink{
+    margin-left: 100px;
+
+}
+.Weather{
+    width: 60%;
+    zoom: 0.3;
+    transform: none;
+    height: 300px;
+    transform: scale(1.05);
+    margin-top: 35px;
+
+}
+.WeatherLink{
+    margin-left: 95px;
+}
+.PassGen{
+width: 60%;
+zoom: 0.3;
+width: 60%;
+height: 200px;
+zoom: 0.3;
+margin-left: 1000px;
+transform: scaleY(1.6);
+margin-top: -300px;
+
+
+}
+.PassGenLink{
+    margin-left: 75px;
+}
+.linkedin{
+    margin-left: 110px;
+    transform: scale(.8);
+}
+.github{
+    margin-left: 110px;
+    transform: scale(.8);
+}
+.resume{
+    margin-left: 110px;
+    transform: scale(.8);
+}
+
+}
+
+@media only screen and (max-width: 414px){
+    .portfoliocardtop{
+        margin-left: -0.75%;
+    }
+    .resume{
+        margin-top: -150px;
+    }
+    .github{
+
+    }
+    .linkedin{
+
+    }
+    .PassGenLink{
+        margin-left: 0px;
+    } 
+    .employeeDirectoryLink{
+        margin-left: 100px;
+    }
+    .employeeDirectory{
+
+    margin-left: 450px;
+    width: 19%;
+    zoom: 0.2;
+        
+        }
+    .PassGen{
+    width: 19%;
+    height: 200px;
+    zoom: 0.2;
+    margin-left:1250px;
+    transform: scaleY(1.6);
+    margin-top: -300px;
+  
+    transform: scaleY(1.6);
+    }
+            
+    .InnerJoin{
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 450px;
+    }
+    .InnerJoinLink{
+    margin-left: 110px;
+                
+    }
+
+    .employeeTracker{
+        width: 19%;
+        zoom: 0.2;
+        margin-left: 1250px;
+        margin-top: -345px;
+    }
+    .employeeTrackerLink{
+        margin-left: 60px;
+    }
+      
+    .TakeAHike{
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 450px;
+    transform: none;
+    height: 252px;
+    transform: scaleY(1.2);
+    margin-top: 60px;
+    }
+    .TakeAHikeLink{
+    margin-left: 75px;
+    }
+
+    .Weather{
+  
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 1250px;
+    margin-top: -272px;
+    }
+    .WeatherLink{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .portfoliocardtop{
+        margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+.WeatherLink{
+    margin-left: 40px;
+}
+.employeeDirectoryLink{
+    margin-left: 78px;
+}
+.PassGenLink{
+    margin-left: 12px;
+}
+}
+@media only screen and (max-width: 320px){
+    .portfoliocardtop{
+        margin-left: -3%;
+    }
+    .PassGenLink{
+        font-size: 13px;
+        margin-top: 2px;
+        margin-left: 120px;
+    }
+    .employeeDirectoryLink{
+        font-size: 13px; 
+        margin-left: 50px;
+    }
+    .InnerJoinLink{
+        font-size: 13px;
+        margin-left:100px;
+    }
+    .employeeTrackerLink{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .TakeAHikeLink{
+        font-size: 13px;
+        margin-left: 100px;
+    }
+    .WeatherLink{
+        font-size: 13px;
+        margin-left: 100px;
+    }
+
+}

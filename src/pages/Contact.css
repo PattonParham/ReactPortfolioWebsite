@@ -1,0 +1,172 @@
+.contactcard{
+    width: 500px;
+    height: 600px;
+  
+    margin-left: 37.5%;
+   
+
+   background-color:  rgba(255, 0, 0, 0);
+}
+
+
+.form{
+    margin-top: 250px;
+    height:200px;
+    color: rgb(197, 197, 197);
+}
+
+.form-control{
+    box-shadow: 0px 0px 48px whitesmoke;
+    /* width:100px; */
+}
+
+.submitbtn{
+    margin-left:67.5px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 36px whitesmoke;
+    width: 150px;
+    height: 75px;
+    color: rgb(197, 197, 197);
+
+}
+#resetbtn{
+    margin-left: 100px;
+}
+.E{
+    margin-bottom: 50px;
+}
+ 
+@media only screen and (max-width: 1250px){
+    .contactcard{
+        margin-left: 25%;
+    }
+   
+}
+@media only screen and (max-width: 1100px){
+    .contactcard{
+        margin-left: 20%;
+    }
+   
+}
+@media only screen and (max-width: 1024px){
+    .contactcard{
+        margin-left: 3.25%;
+        
+    }
+    .form{
+        margin-top: 0px;
+    }
+    .form-control{
+        width: 350px;
+        font-size: 12px;
+    }
+    .message{
+        height: 100px;
+    }
+    .submitbtn{
+        margin-left: 20px;
+        background-color: black;
+    }
+    #resetbtn{
+        margin-left: 40px;
+    }
+    .formlabel{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+    .contactcard{
+        margin-left: 3.25%;
+        
+    }
+    .form{
+        margin-top: 0px;
+    }
+    .form-control{
+        width: 300px;
+        font-size: 12px;
+    }
+    .message{
+        height: 100px;
+    }
+    .submitbtn{
+        margin-left: 0px;
+        background-color: black;
+    }
+    #resetbtn{
+        margin-left: 40px;
+    }
+    .formlabel{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+    .contactcard{
+        margin-left: 3.25%;
+        
+    }
+    .form{
+        margin-top: 0px;
+    }
+    .form-control{
+        width: 300px;
+        font-size: 12px;
+    }
+    .message{
+        height: 100px;
+    }
+    .submitbtn{
+        margin-left: 0px;
+        background-color: black;
+        
+    }
+    #resetbtn{
+        margin-left: 40px;
+    }
+    .formlabel{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    
+    .submitbtn{
+    width: 140px;
+    height: 70px;
+    margin-left: 6px;
+    }
+    .contactcard{
+        margin-left: 2%;
+        
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .contactcard{
+        margin-left: 1.8%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .contactcard{
+        margin-left: 1.8%;
+        
+    }
+
+    .submitbtn{
+        width: 120px;
+        height: 60px;
+        margin-left: 6px;
+        }
+
+    .form-control{
+        width: 250px;
+    }
+}
