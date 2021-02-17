@@ -1,9 +1,9 @@
 .ProjectsWindow{
 
-height: 405px;
+height: 410px;
 width: 600px;
 background-color: black;
-border-radius: 5px;
+border-radius: 25px;
 box-shadow: 0px 0px 48px whitesmoke;
 margin: auto;
 margin-left: 75px;
@@ -33,6 +33,7 @@ text-decoration: none !important;
     color: white;
     box-shadow: 0px 0px 5px whitesmoke;
     margin-left: 175px;
+    border-radius: 5px;
 
 }
 .linkdesc{
@@ -50,4 +51,24 @@ text-decoration: none !important;
 .dDiv{
     margin-top: 20px;
     margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 414px){
+    .ProjectsWindow{
+        height: 410px;
+        width: 300px;
+  
+
+    }
+    .description{}
+
+
+    .pDiv{
+        margin-left: 25px;
+        width: 250px;
+    }
+    #bottomBtn{
+
+    }
 }

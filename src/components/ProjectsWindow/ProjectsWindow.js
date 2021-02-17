@@ -362,7 +362,7 @@ return(
         <a href = "" className = "links">GenSplice</a>
         </Col> 
         <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showGensplice : !showGensplice })}>Description</button>
+        <button href = "" className = "description" id= "bottomBtn" onClick ={() => this.setState({ showGensplice : !showGensplice })}>Description</button>
         { showGensplice 
             ? <div className = "pDiv">
             <div className="dDiv">

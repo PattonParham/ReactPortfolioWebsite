@@ -22,11 +22,12 @@
 
 .submitbtn{
     margin-left:67.5px;
-    margin-top: 25px;
+    margin-top: 75px;
     box-shadow: 0px 0px 36px whitesmoke;
     width: 150px;
     height: 75px;
     color: rgb(197, 197, 197);
+    border-radius: 25px;
 
 }
 #resetbtn{

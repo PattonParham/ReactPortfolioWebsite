@@ -19,17 +19,20 @@
 
 .about{
 margin-left: 1150px;
+text-decoration: none !important;
 
 }
 
 .contact{
-
+    text-decoration: none !important;
 }
 
 .portfolio{
+    text-decoration: none !important;
 
 }
 .text{
+    text-decoration: none !important;
     color: whitesmoke;
     opacity: 0.7;
 }

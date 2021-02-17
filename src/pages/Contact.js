@@ -7,7 +7,7 @@ const Contact = () => {
     return(
         <div>
         <div className="contactcard">
-            <form action="mailto:patton.parham@verizon.net" method="post" enctype="text/plain" className="form">
+            <form action="mailto:parhampatton@gmail.com" method="post" enctype="text/plain" className="form">
                 <label for="exampleFormControlInput1" className="formlabel">Name:</label>
                 <br></br>
                 <input type="text" name="name" className="form-control E"></input>
