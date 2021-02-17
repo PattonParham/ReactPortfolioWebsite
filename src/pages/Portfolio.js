@@ -104,6 +104,12 @@ const Portfolio = () => {
 
 
             <div className="portfoliocardtop mobilecard">
+            <Row>
+                <Col size = "sm">
+                        <ProjectsWindow></ProjectsWindow>
+                </Col>
+            </Row>
+{/*             
             <Row className="middleRowLink">
                     
                     <Col size="xs-6">
@@ -191,7 +197,7 @@ const Portfolio = () => {
                 
                 </div>
                 
-
+ */}
 
             </div>
             <Row className="mobilecard">

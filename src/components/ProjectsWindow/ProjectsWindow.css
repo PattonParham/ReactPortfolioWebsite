@@ -21,8 +21,14 @@ overflow: scroll;
     background-color: black;
     color: white;
     box-shadow: 0px 0px 5px whitesmoke;
+    margin-left: 175px;
 
 }
 .linkdesc{
     margin-top: 10px;
+}
+.pDiv{
+    color: white;
+    margin-top: 10px;
+    margin-left: -150px;
 }
