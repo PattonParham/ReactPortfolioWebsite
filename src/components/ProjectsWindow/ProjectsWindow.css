@@ -8,12 +8,23 @@ box-shadow: 0px 0px 48px whitesmoke;
 margin: auto;
 margin-left: 75px;
 overflow: scroll;
+text-decoration: none !important;
 }
 
 .links{
     margin-left: 20px;
     color: white;
     
+    
+}
+
+.header{
+    text-align: center;
+    color: white;
+}
+.links:hover{
+    text-shadow: 0px 0px 16px whitesmoke; 
+    color: white;
 }
 .linkRow{}
 .description{
@@ -30,5 +41,8 @@ overflow: scroll;
 .pDiv{
     color: white;
     margin-top: 10px;
-    margin-left: -150px;
+    margin-left: -175px;
+    box-shadow: 0px 0px 5px whitesmoke;
+    width: 300px;
+    text-align: center;
 }
