@@ -275,7 +275,7 @@ return(
         <a href = "" className = "links">Password Generator</a>
         </Col> 
         <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showPasswordGenerator: !showPasswordGenerator})}>Description</button>
+        <button href = "https://pattonparham.github.io/Password-Generator/" className = "description" onClick ={() => this.setState({ showPasswordGenerator: !showPasswordGenerator})}>Description</button>
         { showPasswordGenerator
             ? <div className = "pDiv">
             <div className="dDiv">
@@ -298,7 +298,7 @@ return(
         <a href = "" className = "links">Weather Dashboard</a>
         </Col> 
         <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showWeatherDash: !showWeatherDash})}>Description</button>
+        <button href = "https://pattonparham.github.io/Weather-Dashboard/" className = "description" onClick ={() => this.setState({ showWeatherDash: !showWeatherDash})}>Description</button>
         { showWeatherDash
             ? <div className = "pDiv">
             <div className="dDiv">
@@ -317,7 +317,7 @@ return(
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "" className = "links">Take A Hike</a>
+        <a href = "https://jackjewell.github.io/TakeAHike/"  className = "links">Take A Hike</a>
         </Col> 
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showTakeAHike: !showTakeAHike})}>Description</button>
@@ -339,7 +339,7 @@ return(
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "" className = "links">Employee Directory</a>
+        <a href = "https://serene-ravine-67154.herokuapp.com/" className = "links">Employee Directory</a>
         </Col>
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showEmployeeDirectory: !showEmployeeDirectory})}>Description</button>
@@ -359,7 +359,7 @@ return(
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "" className = "links">GenSplice</a>
+        <a href = "https://aqueous-beyond-24181.herokuapp.com/" className = "links">GenSplice</a>
         </Col> 
         <Col size ="sm">
         <button href = "" className = "description" id= "bottomBtn" onClick ={() => this.setState({ showGensplice : !showGensplice })}>Description</button>
