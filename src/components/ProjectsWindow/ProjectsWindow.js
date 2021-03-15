@@ -8,14 +8,14 @@ state = {
         showFibFizz: false, showRationals: false, showCollections: false, showSchemaDesign: false, 
         showControllersServices: false, showTwitterAPI: false, showJSPrimer: false, 
         showJSDeclarative: false, showJSQuizler: false, showJSCopyPage: false, showJSDevDuel: false,
-        showPasswordGenerator: false, showWeatherDash: false, showTakeAHike: false, 
+        showWhosWho: false, showPasswordGenerator: false, showWeatherDash: false, showTakeAHike: false, 
         showEmployeeDirectory: false, showGensplice: false
         }; 
 render(){
 const {
         showFibFizz, showRationals, showCollections, showSchemaDesign, showControllersServices,
         showTwitterAPI, showJSPrimer, showJSDeclarative, showJSQuizler, showJSCopyPage, 
-        showJSDevDuel, showPasswordGenerator, showWeatherDash, showTakeAHike, showEmployeeDirectory,
+        showJSDevDuel, showWhosWho, showPasswordGenerator, showWeatherDash, showTakeAHike, showEmployeeDirectory,
         showGensplice 
       } = this.state;
 return(
@@ -29,7 +29,7 @@ return(
     </Row>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/java-assignment-fibonacci-fizzbuzz-PattonParham" className = "links">Fibonacci/FizzBuzz</a>
+        <a href = "https://github.com/PattonParham/FibonacciFizzBuzz" className = "links">Fibonacci/FizzBuzz</a>
         </Col>
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showFibFizz: !showFibFizz})}>Description</button>
@@ -52,7 +52,7 @@ return(
     <div className = "linkdesc">
     <Row className = "linkRow"> 
         <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/java-assignment-rationals-PattonParham" className = "links">Rationals</a>
+        <a href = "https://github.com/PattonParham/Rationals" className = "links">Rationals</a>
         </Col>
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showRationals: !showRationals})}>Description</button>
@@ -74,97 +74,13 @@ return(
         
     </Row>
     </div>
+
+
+
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/java-assignment-collections-PattonParham" className = "links">Collections</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showCollections: !showCollections})}>Description</button>
-        { showCollections
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As a company I want an employee database so that I can better
-            keep track of the chain of command
-            </div>
-            <div className="dDiv">
-            Description: A java program utilizing Collections designed to help organize an employee database by 
-            employee, manager and chain of command
-            </div>
-            </div>
-            : null
-        }
-        </Col> 
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/java-assignment-schema-design-PattonParham" className = "links">Schema Design</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showSchemaDesign: !showSchemaDesign})}>Description</button>
-        { showSchemaDesign
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As a person with specific interests I want a friend finding app so that I can 
-            get connected with other people in my area who share the same interests
-            </div>
-            <div className="dDiv">
-            Description: A schema written to represent relationship between persons, interests and location to 
-            match them up based on interest and location
-            </div>
-            </div>
-            : null
-        }
-        </Col>    
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/spring-assignment-rest-PattonParham" className = "links">Controllers/Services</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showControllersServices: !showControllersServices})}>Description</button>
-        { showControllersServices
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As an instructor I want a quiz application so that I can create quizzes,
-            questions, and answers, save them and create randomized quizzes
-            </div>
-            <div className="dDiv">
-            Description: An application written in Java and Spring that allows the user to input
-            their own custom quizzes, questions and answers
-            </div>
-            </div>
-            : null
-        }
-        </Col> 
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/spring-assessment-social-media-team-sprint1" className = "links">Twitter API Assessment</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showTwitterAPI: !showTwitterAPI})}>Description</button>
-        { showTwitterAPI
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As a twitter developer I want a Twitter API so that I can perform the 
-            functionalities of twitter on my database
-            </div>
-            <div className="dDiv">
-            Description: A mock twitter API devleoped using Controllers, Services, Repositories and Response DTOs
-            </div>
-            </div>
-            : null
-        }
-        </Col> 
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/js-assignment-primer-PattonParham" className = "links">JS Primer</a>
+        <a href = "https://github.com/PattonParham/JSPrimer" className = "links">JS Primer</a>
         </Col> 
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showJSPrimer: !showJSPrimer})}>Description</button>
@@ -186,7 +102,7 @@ return(
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/js-assignment-declarative-PattonParham" className = "links">JS Declarative</a>
+        <a href = "https://github.com/PattonParham/JSDeclarative" className = "links">JS Declarative</a>
         </Col> 
         <Col size ="sm">
         <button href = "" className = "description" onClick ={() => this.setState({ showJSDeclarative: !showJSDeclarative})}>Description</button>
@@ -205,77 +121,39 @@ return(
         }
         </Col> 
     </Row>
+
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/js-assignment-quizler-PattonParham" className = "links">JS Quizler</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showJSQuizler: !showJSQuizler})}>Description</button>
-        { showJSQuizler
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As an instructor I want a quiz application so that I can create quizzes,
-            questions, and answers, save them and create randomized quizzes
-            </div>
-            <div className="dDiv">
-            Description: An application written in JavaScript, utilizing inquirer.js and vorpal.js 
-            that allows the user to input their own custom quizzes, questions and answers
-            </div>
-            </div>
-            : null
-        }
-        </Col>  
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/js-assignment-copy-page-PattonParham" className = "links">JS Copy Page</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showJSCopyPage: !showJSCopyPage})}>Description</button>
-        { showJSCopyPage
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As a mac salesperson I want an informative web page so that I can have an aesthetically
-            pleasing document to reference when potential customers have questions
-            </div>
-            <div className="dDiv">
-            Description: A mock html and css webpage design of the Macbook Pro Technical Specifications
-            </div>
-            </div>
-            : null
-        }
-        </Col>  
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://github.com/fasttrackd-student-work/js-assignment-dev-duel-PattonParham" className = "links">JS Dev-Duel</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showJSDevDuel: !showJSDevDuel})}>Description</button>
-        { showJSDevDuel
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story: As a github user I want a game where I can battle other github users based on their stats
-            </div>
-            <div className="dDiv">
-            Description: A JavaScript written game in which two github users enter, and based on their stats accessed using github's api,
-            one github user exits victorious
-            </div>
-            </div>
-            : null
-        }
-        </Col>  
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "" className = "links">Password Generator</a>
+        <a href = "https://github.com/PattonParham/CookSystemsFinalProject" className = "links">Who's Who</a>
         </Col> 
         <Col size ="sm">
-        <button href = "https://pattonparham.github.io/Password-Generator/" className = "description" onClick ={() => this.setState({ showPasswordGenerator: !showPasswordGenerator})}>Description</button>
+        <button href = "" className = "description" id= "bottomBtn" onClick ={() => this.setState({ showWhosWho : !showWhosWho })}>Description</button>
+        { showWhosWho 
+            ? <div className = "pDiv">
+            <div className="dDiv">
+            User Story: As a music enthusiast I want a game so that I can test my skills of knowing 
+            who recorded songs in different genres
+            </div>
+            <div className="dDiv">
+            Description: Pick a genre by pressing a button. A random song from a Spotify playlist associated 
+            with that genre will play. In the input field, type the name of the artist you think the song is by. 
+            When you press the submit button, it will tell you if you win (correct answer) or lose (incorrect answer).
+            </div>
+            </div>
+            : null
+        }
+        </Col> 
+    </Row>
+
+
+    <div className = "linkdesc"></div>
+    <Row className = "linkRow">
+        <Col size ="sm">
+        <a href = "https://pattonparham.github.io/Password-Generator/" className = "links">Password Generator</a>
+        </Col> 
+        <Col size ="sm">
+        <button href = "" className = "description" onClick ={() => this.setState({ showPasswordGenerator: !showPasswordGenerator})}>Description</button>
         { showPasswordGenerator
             ? <div className = "pDiv">
             <div className="dDiv">
@@ -295,10 +173,10 @@ return(
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
         <Col size ="sm">
-        <a href = "" className = "links">Weather Dashboard</a>
+        <a href = "https://pattonparham.github.io/Weather-Dashboard/" className = "links">Weather Dashboard</a>
         </Col> 
         <Col size ="sm">
-        <button href = "https://pattonparham.github.io/Weather-Dashboard/" className = "description" onClick ={() => this.setState({ showWeatherDash: !showWeatherDash})}>Description</button>
+        <button href = "" className = "description" onClick ={() => this.setState({ showWeatherDash: !showWeatherDash})}>Description</button>
         { showWeatherDash
             ? <div className = "pDiv">
             <div className="dDiv">
@@ -328,33 +206,13 @@ return(
             to hike near by me or in specific locations
             </div>
             <div className="dDiv">
-            Description: A national park finder written in JavaScript using the National Parks Service API 
+            Description: A national park finder written in JavaScript under a team effort using the National Parks Service API 
             to location parks near spefic locations
             </div>
             </div>
             : null
         }
         </Col> 
-    </Row>
-    <div className = "linkdesc"></div>
-    <Row className = "linkRow">
-        <Col size ="sm">
-        <a href = "https://serene-ravine-67154.herokuapp.com/" className = "links">Employee Directory</a>
-        </Col>
-        <Col size ="sm">
-        <button href = "" className = "description" onClick ={() => this.setState({ showEmployeeDirectory: !showEmployeeDirectory})}>Description</button>
-        { showEmployeeDirectory
-            ? <div className = "pDiv">
-            <div className="dDiv">
-            User Story:
-            </div>
-            <div className="dDiv">
-            Description:
-            </div>
-            </div>
-            : null
-        }
-        </Col>  
     </Row>
     <div className = "linkdesc"></div>
     <Row className = "linkRow">
@@ -370,9 +228,9 @@ return(
             generate new ideas outside the box of human thinking therefore more rapidly
             </div>
             <div className="dDiv">
-            Description: A random audio generator React App written in JavaScript and utlilizing sound cloud's 
-            API and react-player widget to acces wav files from soundcloud and based on millisecond inputs,
-            generate and splice together randomly any wavs input via url
+            Description: A random audio generator React App written in JavaScript and utlilizing Soundcloud's 
+            API and react-player widget to acces .wav files from Soundcloud and based on millisecond inputs,
+            generate and splice together randomly any .wavs input via url
             </div>
             </div>
             : null
